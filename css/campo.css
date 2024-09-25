@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #a50034; /* Color de fondo de la barra de navegación */
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto; /* Centrar la barra de búsqueda */
+    display: block; /* Cambia a bloque para centrar */
+    border: 2px solid #a50034; /* Color de borde */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff; /* Color de fondo */
+    color: #000000; /* Color del texto */
+}
+
+h1, h3, h4 {
+    text-align: center;
+    color: #071fa9; /* Color del texto */
+}
+
+h3 {
+    margin-top: 20px; /* Espacio superior */
+}
+
+p {
+    margin: 0 20px; /* Espacio en los márgenes */
+    line-height: 1.6; /* Espaciado de línea */
+}
+
+/* Elimina márgenes de la sección */
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+/* Para las imágenes */
+img {
+    display: block;
+    margin: 20px auto; /* Centrar imágenes */
+}
